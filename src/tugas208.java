@@ -9,7 +9,7 @@ public class tugas208 {
         int i = 1;
 
         do {
-            System.out.print("Masukkan jenis kendaraan ke-" + i + " (1 (motor) / 2 (mobil): ");
+            System.out.print("Masukkan jenis kendaraan ke-" + i + " (1 (motor) / 2 (mobil) / 0 (keluar): ");
             jenis = input.nextInt();
 
             if (jenis == 1 || jenis == 2) {
